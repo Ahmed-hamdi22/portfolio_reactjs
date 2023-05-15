@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Img from "../assets/logo.JPG";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,12 +9,15 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10 header-shadow">
+      <a href="/" className="logo text-2xl font-bold text-accent logo">
+        <img src={Img}
+    className="img-logo"
+        />
         Ahmed
       </a>
 
-      {/* Desktop Nav */}
+      
       <nav className="hidden md:block">
         <ul className="flex">
           <li>
@@ -26,6 +30,10 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
+            <a href="/#Skilis">Skilis</a>
+          </li>
+          <li>
+            
             <a
               href="https://drive.goog"
               target="_blank"

@@ -1,5 +1,8 @@
 import React from "react";
 import HeroImg from "../assets/hero-img.png";
+import { CgMail } from "react-icons/cg";
+
+
 
 import {
   AiOutlineTwitter,
@@ -7,6 +10,7 @@ import {
   AiOutlineFacebook,
   AiOutlineGithub,
   AiOutlineLinkedin,
+  AiOutlinePhone,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -20,30 +24,37 @@ const Hero = () => {
           </h1>
 
           <p className="py-5">
-            I am proficient in JavaScript, React.js and Tailwind CSS
+            I am proficient in JavaScript, React.js and Redux 
           </p>
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/"
+              href="https://www.linkedin.com/in/ahmed-hamdi-86ab2b23a/"
               className="pr-4 inline-block text-accent hover:text-white"
+              target="_blank"
+            
             >
               {" "}
               <AiOutlineLinkedin size={40} />{" "}
+             
             </a>
             <a
-              href="https://www.youtube.com/"
+                            href="https://github.com/Ahmed-hamdi22"
               className="pr-4 inline-block text-accent hover:text-white"
+              target="_blank"
+             
             >
               {" "}
               <AiOutlineGithub size={40} />{" "}
             </a>
+          
             <a
-              href="https://www.facebook.com//"
-              className="pr-4 inline-block text-accent hover:text-white"
+                className="pr-4 inline-block text-accent hover:text-white"
+              href="mailto:ahmed255hamdi@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
-              {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <CgMail size={40} />
             </a>
           </div>
 

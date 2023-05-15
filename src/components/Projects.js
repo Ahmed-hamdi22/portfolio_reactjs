@@ -1,39 +1,60 @@
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
+import movie from "../assets/movie.png";
+import  amazon from "../assets/amazon.png";
+import landang from "../assets/landing.png";
+import food from "../assets/food.png";
+import commerce from "../assets/e-com.png";
+
+import dashboard from "../assets/dashboard.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      img: amazon,
+      title: "amazon",
+      desc: " A multi author blog. Built with  React, Redux and Tailwind CSS ",
+      live: "https://my-92066.web.app/",
+      code: "https://github.com/",
     },
     {
-      img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
+      img: commerce,
+            title: "e-commmerce-only-design",
+      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap,react and JavaScript",
+      live: "https://e-commmerce-only-design.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/e-commmerce-only-design",
     },
     {
-      img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
-    },
-    {
-      img: getInspirred,
+      img:food,
       title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      desc: ". Materialui and React, on the frontend",
+      live: "https://food-one-psi.vercel.app",
+      code: "https://github.com/Ahmed-hamdi22/food",
     },
+    
+    {
+      img: dashboard,
+      title: "dashboard",
+      desc: " Built with Bootstrap,react and JavaScript ,php .laravel",
+      live: "https://github.com/Ahmed-hamdi22/dashboard...",
+      code: "https://github.com/Ahmed-hamdi22/dashboard",
+    },
+    {
+      img:landang,
+      title: "landing page",
+      desc: "build with html ,css,react, ",
+      live: "https://profile-company-seven.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/profile-company",
+    },
+    {
+      img: movie,
+      title: "get Inspirred",
+      desc: ". Materialui and React, Redux on the frontend",
+      live: "https://movie-apps-iota.verce",
+      code: "https://github.com/Ahmed-hamdi22/movie-apps",
+    },
+    
+    
+
   ];
 
   return (
