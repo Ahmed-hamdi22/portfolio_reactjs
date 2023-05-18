@@ -4,24 +4,25 @@ import  amazon from "../assets/amazon.png";
 import landang from "../assets/landing.png";
 import food from "../assets/food.png";
 import commerce from "../assets/e-com.png";
+import gym from "../assets/gym.png";
 
 import dashboard from "../assets/dashboard.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      img: amazon,
-      title: "amazon",
+      img: gym,
+      title: "gym",
       desc: " A multi author blog. Built with  React, Redux and Tailwind CSS ",
-      live: "https://my-92066.web.app/",
-      code: "https://github.com/",
+      live: "https://gym-three-psi.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/gym",
     },
     {
-      img: commerce,
-            title: "e-commmerce-only-design",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap,react and JavaScript",
-      live: "https://e-commmerce-only-design.vercel.app/",
-      code: "https://github.com/Ahmed-hamdi22/e-commmerce-only-design",
+      img: amazon,
+      title: "amazon",
+      desc: " fire base ,A multi author blog. Built with  React, Redux and Tailwind CSS ",
+      live: "https://my-92066.web.app/",
+      code: "https://github.com/",
     },
     {
       img:food,
@@ -30,6 +31,14 @@ const Projects = () => {
       live: "https://food-one-psi.vercel.app",
       code: "https://github.com/Ahmed-hamdi22/food",
     },
+    {
+      img: commerce,
+            title: "e-commmerce-only-design",
+      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap,react and JavaScript",
+      live: "https://e-commmerce-only-design.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/e-commmerce-only-design",
+    },
+   
     
     {
       img: dashboard,
