@@ -2,6 +2,7 @@ import React from "react";
 import movie from "../assets/movie.png";
 import  amazon from "../assets/amazon.png";
 import landang from "../assets/landing.png";
+import landang2 from "../assets/landewb.png";
 import food from "../assets/food.png";
 import commerce from "../assets/e-com.png";
 import gym from "../assets/gym.png";
@@ -46,6 +47,13 @@ const Projects = () => {
       desc: " Built with Bootstrap,react and JavaScript ,php .laravel",
       live: "https://github.com/Ahmed-hamdi22/dashboard...",
       code: "https://github.com/Ahmed-hamdi22/dashboard",
+    },
+    {
+      img:landang2,
+      title: "landing page",
+      desc: "build with html ,css,react, ",
+      live: "https://landing-web-wheat.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/landing-web",
     },
     {
       img:landang,
