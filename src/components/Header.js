@@ -35,7 +35,7 @@ const Header = () => {
           <li>
             
             <a
-              href="https://drive.goog"
+              href="https://drive.google.com/file/d/1RsCJgX7vLXf100kwNIlluFZYMtHqNDml/view?usp=sharing"
               target="_blank"
               without
               rel="noreferrer"

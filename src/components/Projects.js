@@ -6,11 +6,19 @@ import landang2 from "../assets/landewb.png";
 import food from "../assets/food.png";
 import commerce from "../assets/e-com.png";
 import gym from "../assets/gym.png";
+import eshop from "../assets/eshop.png"
 
 import dashboard from "../assets/dashboard.jpg";
 
 const Projects = () => {
   const projects = [
+    {
+      img:eshop,
+      title: "e-shoping ",
+      desc: ". React, on the frontend",
+      live: "https://e-commerce-nats.vercel.app/",
+      code: "https://github.com/Ahmed-hamdi22/E-Commerce.git",
+    },
     {
       img: gym,
       title: "gym",
@@ -44,7 +52,7 @@ const Projects = () => {
     {
       img: dashboard,
       title: "dashboard",
-      desc: " Built with Bootstrap,react and JavaScript ,php .laravel",
+      desc: " dashboard for add,delete and edit user porducts i am useing react ,bootstrap,context , Authentication with Access,Refresh Tokens, Cookies and Axios",
       live: "https://github.com/Ahmed-hamdi22/dashboard...",
       code: "https://github.com/Ahmed-hamdi22/dashboard",
     },
